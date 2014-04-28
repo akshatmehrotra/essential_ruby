@@ -17,8 +17,10 @@ def pmt(rate, nper, pv)
   # ============================================
   # Your code to implement the method goes here.
   # ============================================
+
+  return pv*rate*((1+rate)**nper)/(((1+rate)**nper)-1)
 end
 
 # Example usage of the method:
 
-# puts "Your monthly payment will be #{pmt(0.01, 60, 30000)}."
+puts "Your monthly payment will be #{pmt(0.01, 60, 30000)}."
