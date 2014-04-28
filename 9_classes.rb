@@ -58,6 +58,8 @@ puts person3.grade
 puts person4.full_name
 puts person4.grade
 
+
+
 # What would happen if I tried doing:
 #     person4.role
 # What about:
